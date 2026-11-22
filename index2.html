@@ -1,0 +1,1810 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youssef Mamdouh | Data Analyst &amp; Aspiring Data Scientist</title>
+  <meta name="description"
+    content="Professional portfolio of Youssef Mamdouh, a Computer Science student and aspiring Data Scientist with hands-on experience in Data Analytics, Business Intelligence, SQL, Python, Power BI, Excel, and data visualization.">
+  <meta name="keywords"
+    content="Youssef Mamdouh, Data Analyst, Aspiring Data Scientist, Business Intelligence, Power BI, SQL, Python, Excel, Tableau, Alexandria Egypt">
+  <meta name="author" content="Youssef Mamdouh">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Youssef Mamdouh | Data Analyst & Aspiring Data Scientist">
+  <meta property="og:description"
+    content="Computer Science student with hands-on experience in Data Analytics, Business Intelligence, SQL, Python, Power BI, Excel, and continuous training toward Data Science and AI.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/jo.jpg">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome CDN for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Ambient Background Glow Elements -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+  <div class="ambient-glow glow-3" aria-hidden="true"></div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Youssef Mamdouh Home">
+        <span class="logo-badge">YM</span>
+        <div class="logo-text">
+          <span class="logo-name">Youssef Mamdouh</span>
+          <span class="logo-tag">DATA &amp; AI</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#timeline" class="nav-link">Experience</a></li>
+          <li><a href="#training" class="nav-link">Training</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#recommendations" class="nav-link">Reviews</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions: Theme Toggle & Mobile Hamburger -->
+      <div class="header-actions">
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle Dark and Light Mode" title="Toggle theme">
+          <i class="fa-solid fa-moon moon-icon" aria-hidden="true"></i>
+          <i class="fa-solid fa-sun sun-icon" aria-hidden="true"></i>
+        </button>
+
+        <button id="mobileMenuBtn" class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false"
+          aria-controls="mobileMenu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+      <div class="mobile-menu-inner">
+        <div class="mobile-menu-header">
+          <span class="mobile-menu-title">Navigation</span>
+          <button id="closeMobileMenuBtn" class="close-menu-btn" aria-label="Close menu">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <ul class="mobile-nav-list">
+          <li><a href="#home" class="mobile-nav-link active"><i class="fa-solid fa-house"></i> Home</a></li>
+          <li><a href="#about" class="mobile-nav-link"><i class="fa-solid fa-user"></i> About</a></li>
+          <li><a href="#skills" class="mobile-nav-link"><i class="fa-solid fa-code"></i> Skills</a></li>
+          <li><a href="#projects" class="mobile-nav-link"><i class="fa-solid fa-chart-pie"></i> Projects</a></li>
+          <li><a href="#timeline" class="mobile-nav-link"><i class="fa-solid fa-clock-rotate-left"></i> Experience</a>
+          </li>
+          <li><a href="#training" class="mobile-nav-link"><i class="fa-solid fa-graduation-cap"></i> Training</a></li>
+          <li><a href="#certifications" class="mobile-nav-link"><i class="fa-solid fa-certificate"></i>
+              Certifications</a></li>
+          <li><a href="#services" class="mobile-nav-link"><i class="fa-solid fa-layer-group"></i> Services</a></li>
+          <li><a href="#recommendations" class="mobile-nav-link"><i class="fa-solid fa-star"></i> Recommendations</a>
+          </li>
+          <li><a href="#contact" class="mobile-nav-link"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+        </ul>
+        <div class="mobile-socials">
+          <a href="https://www.linkedin.com/in/youssef-mamdouh-322440357" target="_blank" rel="noopener noreferrer"
+            aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/youssefmamdouh123456789-hue" target="_blank" rel="noopener noreferrer"
+            aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="mailto:yousefmamdouh123456789@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://wa.me/201278478956" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i
+              class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section section-padding">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-pill hero-badge">
+            <span class="badge-dot"></span>
+            <span>Available for Internships &amp; Entry-Level Roles</span>
+          </div>
+
+          <h1 class="hero-title">
+            <span class="hero-greeting">Hi, I'm</span>
+            <span class="hero-name-highlight">YOUSSEF MAMDOUH</span>
+          </h1>
+
+          <p class="hero-role-title">
+            <span class="role-primary">Data Analyst</span>
+            <span class="role-divider">|</span>
+            <span class="role-secondary">Aspiring Data Scientist</span>
+          </p>
+
+          <p class="hero-subtext">
+            Computer Science Student focused on Data Analytics and Data Science | Career Direction: Data Analytics
+            &rarr;
+            Data Science &rarr; AI Engineering.
+          </p>
+
+          <p class="hero-intro">
+            "I help businesses and decision-makers convert raw data into actionable insights and interactive visual
+            dashboards using SQL, Python, and Power BI."
+          </p>
+
+          <!-- CTAs -->
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary" id="heroViewProjectsBtn">
+              <i class="fa-solid fa-chart-column"></i> View My Projects
+            </a>
+            <a href="#contact" class="btn btn-secondary" id="heroContactBtn">
+              <i class="fa-solid fa-paper-plane"></i> Contact Me
+            </a>
+          </div>
+
+          <!-- Quick Tech Stack Highlights -->
+          <div class="hero-tech-stack">
+            <span class="tech-stack-label">Core Toolset:</span>
+            <div class="tech-pill-list">
+              <span class="tech-pill"><i class="fa-brands fa-python text-python"></i> Python</span>
+              <span class="tech-pill"><i class="fa-solid fa-database text-sql"></i> SQL</span>
+              <span class="tech-pill"><i class="fa-solid fa-chart-simple text-powerbi"></i> Power BI</span>
+              <span class="tech-pill"><i class="fa-solid fa-file-excel text-excel"></i> Excel</span>
+              <span class="tech-pill"><i class="fa-solid fa-chart-line text-tableau"></i> Tableau</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual: Real Profile Card -->
+        <div class="hero-visual">
+          <div class="hero-profile-card glass-panel" data-aos="fade-left">
+            <div class="avatar-frame">
+              <img src="assets/images/youssef_photo.jpg"
+                alt="Youssef Mamdouh - Data Analyst and Aspiring Data Scientist" class="profile-avatar">
+              <div class="avatar-status-badge" title="Active Student & Trainee">
+                <i class="fa-solid fa-check"></i>
+              </div>
+            </div>
+            <h3 class="profile-name">Youssef Mamdouh</h3>
+            <p class="profile-designation">Data Analyst | Aspiring Data Scientist</p>
+            <div class="profile-location">
+              <i class="fa-solid fa-location-dot"></i> Alexandria, Egypt
+            </div>
+
+            <div class="profile-divider"></div>
+
+            <div class="profile-quick-facts">
+              <div class="quick-fact-item">
+                <span class="fact-label"><i class="fa-solid fa-graduation-cap"></i> University:</span>
+                <span class="fact-val">Arab Open University – Egypt</span>
+              </div>
+              <div class="quick-fact-item">
+                <span class="fact-label"><i class="fa-solid fa-award"></i> Degree:</span>
+                <span class="fact-val">Bachelor’s in Computer Science</span>
+              </div>
+              <div class="quick-fact-item">
+                <span class="fact-label"><i class="fa-solid fa-calendar-check"></i> Graduation:</span>
+                <span class="fact-val">Expected 2027</span>
+              </div>
+              <div class="quick-fact-item">
+                <span class="fact-label"><i class="fa-solid fa-brain"></i> Active Training:</span>
+                <span class="fact-val">ITI &amp; DEPI (AI/Data Science)</span>
+              </div>
+            </div>
+
+            <div class="profile-social-links">
+              <a href="https://www.linkedin.com/in/youssef-mamdouh-322440357" target="_blank" rel="noopener noreferrer"
+                class="social-btn" aria-label="LinkedIn Profile">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/youssefmamdouh123456789-hue" target="_blank" rel="noopener noreferrer"
+                class="social-btn" aria-label="GitHub Profile">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="mailto:yousefmamdouh123456789@gmail.com" class="social-btn" aria-label="Send Email">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS / HIGHLIGHTS COUNTER BANNER -->
+    <section class="stats-banner-section" aria-label="Key Project Metrics">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-card glass-panel" data-aos="fade-up">
+            <div class="stat-icon-wrap icon-cyan">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <div class="stat-body">
+              <div class="stat-number"><span class="counter" data-target="37500">0</span>+</div>
+              <p class="stat-title">Policies Analyzed</p>
+              <p class="stat-desc">Insurance Risk &amp; $187.8M Claims</p>
+            </div>
+          </div>
+
+          <div class="stat-card glass-panel" data-aos="fade-up" data-aos-delay="100">
+            <div class="stat-icon-wrap icon-emerald">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="stat-body">
+              <div class="stat-number"><span class="counter" data-target="8000">0</span>+</div>
+              <p class="stat-title">Transactions Analyzed</p>
+              <p class="stat-desc">BlinkIT Sales &amp; 10+ Core KPIs</p>
+            </div>
+          </div>
+
+          <div class="stat-card glass-panel" data-aos="fade-up" data-aos-delay="200">
+            <div class="stat-icon-wrap icon-amber">
+              <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="stat-body">
+              <div class="stat-number"><span class="counter" data-target="5000">0</span>+</div>
+              <p class="stat-title">Orders Analyzed</p>
+              <p class="stat-desc">Swiggy Logistics &amp; Ratings</p>
+            </div>
+          </div>
+
+          <div class="stat-card glass-panel" data-aos="fade-up" data-aos-delay="300">
+            <div class="stat-icon-wrap icon-violet">
+              <i class="fa-solid fa-landmark"></i>
+            </div>
+            <div class="stat-body">
+              <div class="stat-number"><span class="counter" data-target="543">0</span></div>
+              <p class="stat-title">Constituencies Analyzed</p>
+              <p class="stat-desc">India Elections 2024 SQL Deep-Dive</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAREER OBJECTIVE SECTION -->
+    <section class="career-objective-section">
+      <div class="container">
+        <div class="career-objective-card glass-panel" data-aos="zoom-in">
+          <div class="objective-header">
+            <div class="objective-badge">
+              <i class="fa-solid fa-compass"></i> CAREER VISION &amp; OBJECTIVE
+            </div>
+            <div class="objective-quote-mark">
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+          </div>
+          <blockquote class="objective-quote">
+            "My career direction progresses through Data Analytics &rarr; Data Science &rarr; AI Engineering. My
+            long-term goal is to become an AI Engineer and build intelligent, data-driven applications and AI
+            solutions."
+          </blockquote>
+          <div class="objective-author">
+            <span class="author-name">Youssef Mamdouh</span>
+            <span class="author-sub">Computer Science Student | Arab Open University – Egypt (Class of 2027)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section id="about" class="about-section section-padding">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <div class="section-badge"><i class="fa-solid fa-user-tie"></i> Background &amp; Profile</div>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Dedicated to transforming raw data into actionable business intelligence and
+            scalable analytical models.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Column: Analytics Intelligence Hub Widget -->
+          <div class="about-card-col" data-aos="fade-right">
+            <div class="data-dashboard-card glass-panel">
+              <div class="dashboard-header">
+                <div class="card-dots">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
+                </div>
+                <div class="dashboard-title-bar">
+                  <i class="fa-solid fa-chart-line"></i> Analytics Intelligence Hub
+                </div>
+                <div class="status-live">
+                  <span class="live-pulse"></span> LIVE METRICS
+                </div>
+              </div>
+
+              <!-- Mini KPI Cards Grid -->
+              <div class="hero-kpi-grid">
+                <div class="mini-kpi-card">
+                  <span class="kpi-label">Analyzed Policies</span>
+                  <span class="kpi-val text-cyan">37.5K+</span>
+                  <span class="kpi-trend positive"><i class="fa-solid fa-arrow-trend-up"></i> $187.8M Value</span>
+                </div>
+                <div class="mini-kpi-card">
+                  <span class="kpi-label">Constituencies</span>
+                  <span class="kpi-val text-violet">543</span>
+                  <span class="kpi-trend positive"><i class="fa-solid fa-check-double"></i> Star Schema</span>
+                </div>
+                <div class="mini-kpi-card">
+                  <span class="kpi-label">Sales Transactions</span>
+                  <span class="kpi-val text-emerald">8,000+</span>
+                  <span class="kpi-trend positive"><i class="fa-solid fa-bolt"></i> 10+ Core KPIs</span>
+                </div>
+                <div class="mini-kpi-card">
+                  <span class="kpi-label">Orders Modeled</span>
+                  <span class="kpi-val text-amber">5,000+</span>
+                  <span class="kpi-trend positive"><i class="fa-solid fa-chart-pie"></i> Segments Analyzed</span>
+                </div>
+              </div>
+
+              <!-- Visual Simulated Chart Area -->
+              <div class="simulated-chart-container">
+                <div class="chart-legend">
+                  <span><span class="legend-dot" style="background:#00d2ff"></span> Analytics &amp; BI</span>
+                  <span><span class="legend-dot" style="background:#8b5cf6"></span> SQL Modeling</span>
+                  <span><span class="legend-dot" style="background:#10b981"></span> AI &amp; Data Science</span>
+                </div>
+                <svg class="hero-svg-chart" viewBox="0 0 400 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="chartGrad1" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="#00d2ff" stop-opacity="0.35" />
+                      <stop offset="100%" stop-color="#00d2ff" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient id="chartGrad2" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.25" />
+                      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+                    </linearGradient>
+                  </defs>
+                  <!-- Grid Lines -->
+                  <line x1="0" y1="30" x2="400" y2="30" stroke="var(--border-color)" stroke-dasharray="4 4" />
+                  <line x1="0" y1="70" x2="400" y2="70" stroke="var(--border-color)" stroke-dasharray="4 4" />
+                  <line x1="0" y1="110" x2="400" y2="110" stroke="var(--border-color)" stroke-dasharray="4 4" />
+
+                  <!-- Area Path 2 -->
+                  <path d="M 0,110 Q 70,85 140,95 T 280,50 T 400,30 L 400,140 L 0,140 Z" fill="url(#chartGrad2)" />
+                  <path d="M 0,110 Q 70,85 140,95 T 280,50 T 400,30" stroke="#8b5cf6" stroke-width="2.5" fill="none" />
+
+                  <!-- Area Path 1 -->
+                  <path d="M 0,125 Q 80,90 160,70 T 300,35 T 400,15 L 400,140 L 0,140 Z" fill="url(#chartGrad1)" />
+                  <path d="M 0,125 Q 80,90 160,70 T 300,35 T 400,15" stroke="#00d2ff" stroke-width="3" fill="none" />
+
+                  <!-- Data Points -->
+                  <circle cx="160" cy="70" r="4.5" fill="#00d2ff" stroke="var(--bg-primary)" stroke-width="2" />
+                  <circle cx="300" cy="35" r="4.5" fill="#00d2ff" stroke="var(--bg-primary)" stroke-width="2" />
+                  <circle cx="400" cy="15" r="5" fill="#00f2fe" stroke="var(--bg-primary)" stroke-width="2" />
+                </svg>
+              </div>
+
+              <!-- Live Pipeline Activity Indicator -->
+              <div class="dashboard-footer-status">
+                <div class="pipeline-step"><i class="fa-solid fa-database"></i> Raw Data</div>
+                <div class="pipeline-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="pipeline-step"><i class="fa-solid fa-filter"></i> ETL &amp; Clean</div>
+                <div class="pipeline-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="pipeline-step active-step"><i class="fa-solid fa-chart-column"></i> Insights &amp; BI</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Biography & Capabilities -->
+          <div class="about-content-col" data-aos="fade-left">
+            <div class="about-bio-card glass-panel">
+              <h3 class="bio-heading">Transforming Raw Data into Meaningful Insights</h3>
+              <p class="bio-paragraph">
+                I am a Computer Science student focused on Data Analytics and Data Science, currently developing my
+                skills
+                in Artificial Intelligence with a long-term goal of becoming an AI Engineer. I am currently studying at
+                <strong>Arab Open University – Egypt</strong>, expected to graduate in <strong>2027</strong>.
+              </p>
+              <p class="bio-paragraph">
+                Through hands-on project work, I have developed and deployed end-to-end analytical workflows—ranging
+                from multi-source data extraction, Power Query cleaning, and Star Schema relational database modeling in
+                SQL Server, to crafting dynamic KPI dashboards in Power BI, Excel, and Tableau.
+              </p>
+              <p class="bio-paragraph">
+                I am currently expanding my capabilities into advanced Machine Learning and Artificial Intelligence
+                through specialized tracks at the <strong>Information Technology Institute (ITI)</strong> and the
+                <strong>Rowad Masr Digital Initiative (DEPI)</strong>. My focus is on writing clean, scalable code and
+                delivering rigorous statistical and visual analysis.
+              </p>
+
+              <!-- Technical Focus Area Badges -->
+              <div class="focus-areas-block">
+                <h4 class="focus-title">Core Technical Focus:</h4>
+                <div class="focus-tags-grid">
+                  <span class="focus-tag"><i class="fa-solid fa-chart-pie"></i> Data Analysis</span>
+                  <span class="focus-tag"><i class="fa-solid fa-gauge-high"></i> Business Intelligence</span>
+                  <span class="focus-tag"><i class="fa-solid fa-chart-line"></i> Data Visualization</span>
+                  <span class="focus-tag"><i class="fa-solid fa-database"></i> SQL &amp; SSMS</span>
+                  <span class="focus-tag"><i class="fa-brands fa-python"></i> Python</span>
+                  <span class="focus-tag"><i class="fa-solid fa-chart-simple"></i> Power BI</span>
+                  <span class="focus-tag"><i class="fa-solid fa-file-excel"></i> Microsoft Excel</span>
+                  <span class="focus-tag"><i class="fa-solid fa-chart-area"></i> Tableau</span>
+                  <span class="focus-tag"><i class="fa-solid fa-network-wired"></i> ETL Workflows</span>
+                  <span class="focus-tag"><i class="fa-solid fa-broom"></i> Data Cleaning</span>
+                </div>
+              </div>
+
+              <!-- Key Strengths Grid -->
+              <div class="strengths-grid">
+                <div class="strength-item">
+                  <div class="strength-icon"><i class="fa-solid fa-brain"></i></div>
+                  <div>
+                    <h5 class="strength-name">Analytical Rigor</h5>
+                    <p class="strength-desc">Deep-dive problem solving with clean data validation.</p>
+                  </div>
+                </div>
+                <div class="strength-item">
+                  <div class="strength-icon"><i class="fa-solid fa-diagram-project"></i></div>
+                  <div>
+                    <h5 class="strength-name">Data Modeling</h5>
+                    <p class="strength-desc">Relational schema design, DAX KPIs, and Star Schemas.</p>
+                  </div>
+                </div>
+                <div class="strength-item">
+                  <div class="strength-icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
+                  <div>
+                    <h5 class="strength-name">AI &amp; DS Growth</h5>
+                    <p class="strength-desc">Active study in statistics, algorithms, and Machine Learning.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills-section section-padding">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <div class="section-badge"><i class="fa-solid fa-cubes"></i> Technical &amp; Analytical Competencies</div>
+          <h2 class="section-title">Categorized Skills</h2>
+          <p class="section-subtitle">Structured expertise spanning data analytics, relational databases, programming,
+            and data science fundamentals.</p>
+        </div>
+
+        <!-- Skills Category Filter Tabs -->
+        <div class="skills-filter-container" data-aos="fade-up">
+          <button class="skill-filter-btn active" data-filter="all">All Skills</button>
+          <button class="skill-filter-btn" data-filter="analytics">Analytics &amp; BI</button>
+          <button class="skill-filter-btn" data-filter="databases">SQL &amp; Databases</button>
+          <button class="skill-filter-btn" data-filter="programming">Programming &amp; DS</button>
+          <button class="skill-filter-btn" data-filter="softskills">Soft Skills</button>
+        </div>
+
+        <!-- 8 Categorized Skill Cards -->
+        <div class="skills-cards-grid">
+
+          <!-- Category 1: Data Analytics & Visualization -->
+          <div class="skill-category-card glass-panel" data-category="analytics" data-aos="fade-up">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon icon-cyan">
+                <i class="fa-solid fa-chart-pie"></i>
+              </div>
+              <div>
+                <span class="skill-cat-number">01</span>
+                <h3 class="skill-cat-title">Data Analytics &amp; Visualization</h3>
+              </div>
+            </div>
+            <ul class="skill-pill-list">
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Power BI</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Microsoft Excel</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Tableau</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Data Visualization</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Data Cleaning</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Reporting</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Business Intelligence</li>
+            </ul>
+          </div>
+
+          <!-- Category 2: Power BI -->
+          <div class="skill-category-card glass-panel" data-category="analytics" data-aos="fade-up"
+            data-aos-delay="100">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon icon-amber">
+                <i class="fa-solid fa-chart-simple"></i>
+              </div>
+              <div>
+                <span class="skill-cat-number">02</span>
+                <h3 class="skill-cat-title">Power BI</h3>
+              </div>
+            </div>
+            <ul class="skill-pill-list">
+              <li class="skill-item"><i class="fa-solid fa-check"></i> DAX (Data Analysis Expressions)</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Data Modeling &amp; Relationships</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Interactive KPI Dashboards</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Dynamic Measures</li>
+            </ul>
+          </div>
+
+          <!-- Category 3: Excel -->
+          <div class="skill-category-card glass-panel" data-category="analytics" data-aos="fade-up"
+            data-aos-delay="200">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon icon-emerald">
+                <i class="fa-solid fa-file-excel"></i>
+              </div>
+              <div>
+                <span class="skill-cat-number">03</span>
+                <h3 class="skill-cat-title">Microsoft Excel</h3>
+              </div>
+            </div>
+            <ul class="skill-pill-list">
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Pivot Tables &amp; Pivot Charts</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Power Query &amp; Transformation</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Advanced Charts &amp; Trendlines</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Conditional Formatting</li>
+            </ul>
+          </div>
+
+          <!-- Category 4: SQL & Databases -->
+          <div class="skill-category-card glass-panel" data-category="databases" data-aos="fade-up"
+            data-aos-delay="300">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon icon-blue">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <div>
+                <span class="skill-cat-number">04</span>
+                <h3 class="skill-cat-title">SQL &amp; Databases</h3>
+              </div>
+            </div>
+            <ul class="skill-pill-list">
+              <li class="skill-item"><i class="fa-solid fa-check"></i> SQL</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> SQL Server</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> SSMS (SQL Server Mgmt Studio)</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> INNER &amp; LEFT Joins</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Subqueries &amp; CTEs</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Aggregations &amp; Grouping</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Relational Databases</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> SSIS &amp; SSAS</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Data Warehousing</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Star Schema</li>
+            </ul>
+          </div>
+
+          <!-- Category 5: Programming -->
+          <div class="skill-category-card glass-panel" data-category="programming" data-aos="fade-up">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon icon-violet">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div>
+                <span class="skill-cat-number">05</span>
+                <h3 class="skill-cat-title">Programming</h3>
+              </div>
+            </div>
+            <ul class="skill-pill-list">
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Python</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Java</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Object-Oriented Programming (OOP)</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Data Structures &amp; Algorithms</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> PHP</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> HTML</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> CSS</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> JavaScript</li>
+            </ul>
+          </div>
+
+          <!-- Category 6: Python Data Libraries -->
+          <div class="skill-category-card glass-panel" data-category="programming" data-aos="fade-up"
+            data-aos-delay="100">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon icon-cyan">
+                <i class="fa-brands fa-python"></i>
+              </div>
+              <div>
+                <span class="skill-cat-number">06</span>
+                <h3 class="skill-cat-title">Python Data Libraries</h3>
+              </div>
+            </div>
+            <ul class="skill-pill-list">
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Pandas (DataFrames &amp; Series)</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> NumPy (Numerical Operations)</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Matplotlib (Custom Visualizations)</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Seaborn (Statistical Graphics)</li>
+            </ul>
+          </div>
+
+          <!-- Category 7: Data Science Fundamentals -->
+          <div class="skill-category-card glass-panel" data-category="programming" data-aos="fade-up"
+            data-aos-delay="200">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon icon-emerald">
+                <i class="fa-solid fa-square-root-variable"></i>
+              </div>
+              <div>
+                <span class="skill-cat-number">07</span>
+                <h3 class="skill-cat-title">Data Science Fundamentals</h3>
+              </div>
+            </div>
+            <ul class="skill-pill-list">
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Machine Learning Fundamentals</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Descriptive &amp; Inferential Statistics</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Probability Distributions</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Linear Algebra</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Calculus</li>
+            </ul>
+          </div>
+
+          <!-- Category 8: Soft Skills -->
+          <div class="skill-category-card glass-panel" data-category="softskills" data-aos="fade-up"
+            data-aos-delay="300">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon icon-amber">
+                <i class="fa-solid fa-lightbulb"></i>
+              </div>
+              <div>
+                <span class="skill-cat-number">08</span>
+                <h3 class="skill-cat-title">Soft Skills</h3>
+              </div>
+            </div>
+            <ul class="skill-pill-list">
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Analytical Thinking</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Problem Solving</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Technical Communication</li>
+              <li class="skill-item"><i class="fa-solid fa-check"></i> Attention to Detail</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects-section section-padding">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <div class="section-badge"><i class="fa-solid fa-folder-open"></i> Portfolio Work</div>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Real-world analytical deep-dives featuring measurable datasets, relational
+            database queries, and interactive KPI dashboards.</p>
+        </div>
+
+        <!-- Project Filter Buttons -->
+        <div class="project-filter-container" data-aos="fade-up">
+          <button class="project-filter-btn active" data-filter="all">All Projects</button>
+          <button class="project-filter-btn" data-filter="powerbi">Power BI</button>
+          <button class="project-filter-btn" data-filter="sql">SQL Server</button>
+          <button class="project-filter-btn" data-filter="excel">Microsoft Excel</button>
+          <button class="project-filter-btn" data-filter="python">Python</button>
+        </div>
+
+        <!-- Project Grid -->
+        <div class="project-grid">
+
+          <!-- PROJECT 01: Insurance Risk & Claims -->
+          <article class="project-card glass-panel" data-category="powerbi" data-aos="fade-up">
+            <div class="project-card-visual visual-insurance">
+              <div class="project-visual-badge">
+                <i class="fa-solid fa-shield-halved"></i> Risk &amp; Claims Analytics
+              </div>
+              <!-- Abstract Chart Graphic -->
+              <svg class="abstract-svg-preview" viewBox="0 0 320 140" fill="none">
+                <rect x="20" y="30" width="40" height="90" rx="4" fill="rgba(0, 210, 255, 0.4)" />
+                <rect x="75" y="55" width="40" height="65" rx="4" fill="rgba(0, 210, 255, 0.7)" />
+                <rect x="130" y="20" width="40" height="100" rx="4" fill="rgba(139, 92, 246, 0.6)" />
+                <rect x="185" y="45" width="40" height="75" rx="4" fill="rgba(16, 185, 129, 0.6)" />
+                <rect x="240" y="35" width="40" height="85" rx="4" fill="rgba(245, 158, 11, 0.6)" />
+                <path d="M 40,30 L 95,55 L 150,20 L 205,45 L 260,35" stroke="#00f2fe" stroke-width="2.5"
+                  stroke-linecap="round" />
+              </svg>
+              <span class="project-num-tag">PROJECT 01</span>
+            </div>
+
+            <div class="project-card-body">
+              <div class="project-tech-badges">
+                <span class="badge-tech badge-powerbi"><i class="fa-solid fa-chart-simple"></i> Power BI</span>
+                <span class="badge-tech"><i class="fa-solid fa-database"></i> DAX Modeling</span>
+              </div>
+
+              <h3 class="project-title">Insurance Risk &amp; Claims Analysis Dashboard</h3>
+
+              <p class="project-desc">
+                "Built an interactive Power BI dashboard analyzing 37,500+ insurance policies and $187.8M in total claim
+                amounts to support risk assessment and data-driven decision-making."
+              </p>
+
+              <!-- Key Metric Highlights -->
+              <div class="project-highlights-box">
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check text-cyan"></i>
+                  <span><strong>37,500+</strong> insurance policies analyzed</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check text-cyan"></i>
+                  <span><strong>$187.8M</strong> total claim amounts evaluated</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check text-cyan"></i>
+                  <span>Dynamic analysis by car use, make, zone, age group, &amp; car year</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check text-cyan"></i>
+                  <span>Claim segmentation by education and marital status (<strong>$96.3M</strong> segmented)</span>
+                </div>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="project-actions">
+                <button class="btn btn-sm btn-primary project-modal-trigger" data-project="insurance">
+                  <i class="fa-solid fa-circle-info"></i> View Details
+                </button>
+                <a href="https://github.com/youssefmamdouh123456789-hue" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-sm btn-outline" title="GitHub Repository">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 02: BlinkIT Sales Analysis -->
+          <article class="project-card glass-panel" data-category="powerbi excel" data-aos="fade-up"
+            data-aos-delay="100">
+            <div class="project-card-visual visual-blinkit">
+              <div class="project-visual-badge">
+                <i class="fa-solid fa-cart-shopping"></i> Retail &amp; Outlet BI
+              </div>
+              <!-- Abstract Chart Graphic -->
+              <svg class="abstract-svg-preview" viewBox="0 0 320 140" fill="none">
+                <circle cx="90" cy="70" r="45" stroke="rgba(16, 185, 129, 0.4)" stroke-width="14"
+                  stroke-dasharray="140 100" />
+                <circle cx="90" cy="70" r="45" stroke="#10b981" stroke-width="14" stroke-dasharray="80 180"
+                  stroke-dashoffset="-40" />
+                <line x1="160" y1="40" x2="280" y2="40" stroke="rgba(255,255,255,0.15)" stroke-width="8"
+                  stroke-linecap="round" />
+                <line x1="160" y1="40" x2="250" y2="40" stroke="#00d2ff" stroke-width="8" stroke-linecap="round" />
+                <line x1="160" y1="70" x2="280" y2="70" stroke="rgba(255,255,255,0.15)" stroke-width="8"
+                  stroke-linecap="round" />
+                <line x1="160" y1="70" x2="220" y2="70" stroke="#8b5cf6" stroke-width="8" stroke-linecap="round" />
+                <line x1="160" y1="100" x2="280" y2="100" stroke="rgba(255,255,255,0.15)" stroke-width="8"
+                  stroke-linecap="round" />
+                <line x1="160" y1="100" x2="270" y2="100" stroke="#10b981" stroke-width="8" stroke-linecap="round" />
+              </svg>
+              <span class="project-num-tag">PROJECT 02</span>
+            </div>
+
+            <div class="project-card-body">
+              <div class="project-tech-badges">
+                <span class="badge-tech badge-powerbi"><i class="fa-solid fa-chart-simple"></i> Power BI</span>
+                <span class="badge-tech badge-excel"><i class="fa-solid fa-file-excel"></i> Excel</span>
+                <span class="badge-tech"><i class="fa-solid fa-filter"></i> Power Query ETL</span>
+              </div>
+
+              <h3 class="project-title">BlinkIT Sales Analysis Dashboard</h3>
+
+              <p class="project-desc">
+                "Designed an interactive sales dashboard analyzing 8K+ transactional records and tracking 10+ core
+                business KPIs to evaluate outlet performance."
+              </p>
+
+              <!-- Key Metric Highlights -->
+              <div class="project-highlights-box">
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check text-emerald"></i>
+                  <span><strong>8K+</strong> transactional sales records modeled</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check text-emerald"></i>
+                  <span><strong>10+</strong> core business KPIs monitored across outlets</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check text-emerald"></i>
+                  <span>Data cleaning and automated ETL workflows via Power Query</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check text-emerald"></i>
+                  <span>Revenue, product-category, &amp; average delivery time analysis</span>
+                </div>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="project-actions">
+                <button class="btn btn-sm btn-primary project-modal-trigger" data-project="blinkit">
+                  <i class="fa-solid fa-circle-info"></i> View Details
+                </button>
+                <a href="https://github.com/youssefmamdouh123456789-hue" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-sm btn-outline" title="GitHub Repository">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 03: India Elections 2024 SQL Analysis -->
+          <article class="project-card glass-panel" data-category="sql" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-card-visual visual-elections">
+              <div class="project-visual-badge">
+                <i class="fa-solid fa-database"></i> Relational Database &amp; SQL Deep-Dive
+              </div>
+              <!-- Abstract Chart Graphic -->
+              <svg class="abstract-svg-preview" viewBox="0 0 320 140" fill="none">
+                <rect x="30" y="25" width="70" height="40" rx="6" fill="rgba(139, 92, 246, 0.4)" stroke="#8b5cf6"
+                  stroke-width="1.5" />
+                <rect x="130" y="55" width="80" height="50" rx="6" fill="rgba(0, 210, 255, 0.4)" stroke="#00d2ff"
+                  stroke-width="1.5" />
+                <rect x="230" y="25" width="70" height="40" rx="6" fill="rgba(16, 185, 129, 0.4)" stroke="#10b981"
+                  stroke-width="1.5" />
+                <path d="M 100,45 L 130,70 M 210,70 L 230,45" stroke="rgba(255,255,255,0.4)" stroke-width="2"
+                  stroke-dasharray="3 3" />
+                <circle cx="170" cy="80" r="10" fill="#00d2ff" />
+              </svg>
+              <span class="project-num-tag">PROJECT 03</span>
+            </div>
+
+            <div class="project-card-body">
+              <div class="project-tech-badges">
+                <span class="badge-tech badge-sql"><i class="fa-solid fa-server"></i> SQL Server</span>
+                <span class="badge-tech"><i class="fa-solid fa-terminal"></i> SSMS</span>
+                <span class="badge-tech"><i class="fa-solid fa-diagram-project"></i> Star Schema</span>
+              </div>
+
+              <h3 class="project-title">India Elections 2024 SQL Analysis</h3>
+
+              <p class="project-desc">
+                "Performed an analytical deep-dive into election datasets covering 543 constituencies, using relational
+                database design, complex joins, aggregations, and subqueries to uncover voting and regional patterns."
+              </p>
+
+              <!-- Key Metric Highlights -->
+              <div class="project-highlights-box">
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check text-violet"></i>
+                  <span><strong>543</strong> national constituencies modeled &amp; queried</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check text-violet"></i>
+                  <span>Engineered Star Schema database design in SQL Server</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check text-violet"></i>
+                  <span>Complex INNER/LEFT JOINs, subqueries, &amp; window aggregations</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check text-violet"></i>
+                  <span>State-level analytical insights &amp; voter turnout breakdown</span>
+                </div>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="project-actions">
+                <button class="btn btn-sm btn-primary project-modal-trigger" data-project="elections">
+                  <i class="fa-solid fa-circle-info"></i> View Details
+                </button>
+                <a href="https://github.com/youssefmamdouh123456789-hue" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-sm btn-outline" title="GitHub Repository">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 04: Swiggy Delivery Performance Analytics -->
+          <article class="project-card glass-panel" data-category="excel" data-aos="fade-up" data-aos-delay="300">
+            <div class="project-card-visual visual-swiggy">
+              <div class="project-visual-badge">
+                <i class="fa-solid fa-utensils"></i> Food Delivery Analytics Model
+              </div>
+              <!-- Abstract Chart Graphic -->
+              <svg class="abstract-svg-preview" viewBox="0 0 320 140" fill="none">
+                <path d="M 20,110 L 60,85 L 110,95 L 160,50 L 210,65 L 260,30 L 300,45" stroke="#f59e0b"
+                  stroke-width="3" fill="none" />
+                <circle cx="160" cy="50" r="5" fill="#f59e0b" />
+                <circle cx="260" cy="30" r="5" fill="#f59e0b" />
+                <path d="M 20,110 L 60,85 L 110,95 L 160,50 L 210,65 L 260,30 L 300,45 L 300,130 L 20,130 Z"
+                  fill="rgba(245, 158, 11, 0.15)" />
+              </svg>
+              <span class="project-num-tag">PROJECT 04</span>
+            </div>
+
+            <div class="project-card-body">
+              <div class="project-tech-badges">
+                <span class="badge-tech badge-excel"><i class="fa-solid fa-file-excel"></i> Microsoft Excel</span>
+                <span class="badge-tech"><i class="fa-solid fa-table-cells"></i> Pivot Tables</span>
+                <span class="badge-tech"><i class="fa-solid fa-chart-line"></i> Performance Modeling</span>
+              </div>
+
+              <h3 class="project-title">Swiggy Food Delivery Performance Analytics</h3>
+
+              <p class="project-desc">
+                "Built a centralized analytics model for 5K+ food delivery orders to evaluate delivery performance,
+                customer ratings, and restaurant segments."
+              </p>
+
+              <!-- Key Metric Highlights -->
+              <div class="project-highlights-box">
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check text-amber"></i>
+                  <span><strong>5,000+</strong> delivery orders cleaned and analyzed</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check text-amber"></i>
+                  <span>End-to-end data cleaning &amp; transformation in Excel</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check text-amber"></i>
+                  <span>Advanced multi-dimensional Pivot Tables &amp; dynamic slicers</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check text-amber"></i>
+                  <span>Delivery-time analysis, customer ratings, &amp; restaurant segmentation</span>
+                </div>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="project-actions">
+                <button class="btn btn-sm btn-primary project-modal-trigger" data-project="swiggy">
+                  <i class="fa-solid fa-circle-info"></i> View Details
+                </button>
+                <a href="https://github.com/youssefmamdouh123456789-hue" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-sm btn-outline" title="GitHub Repository">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 05: Retail Sales Profitability Analysis -->
+          <article class="project-card glass-panel" data-category="python" data-aos="fade-up" data-aos-delay="400">
+            <div class="project-card-visual visual-insurance">
+              <div class="project-visual-badge">
+                <i class="fa-brands fa-python"></i> Python Exploratory Data Analysis
+              </div>
+              <svg class="abstract-svg-preview" viewBox="0 0 320 140" fill="none" role="img" aria-label="Decorative analytics chart">
+                <rect x="35" y="55" width="45" height="65" rx="4" fill="rgba(0, 210, 255, 0.5)" />
+                <rect x="100" y="35" width="45" height="85" rx="4" fill="rgba(0, 210, 255, 0.7)" />
+                <rect x="165" y="20" width="45" height="100" rx="4" fill="rgba(139, 92, 246, 0.6)" />
+                <rect x="230" y="65" width="45" height="55" rx="4" fill="rgba(16, 185, 129, 0.6)" />
+                <path d="M 55,45 L 120,30 L 185,65 L 250,95" stroke="#f59e0b" stroke-width="3" stroke-linecap="round" />
+              </svg>
+              <span class="project-num-tag">PROJECT 05</span>
+            </div>
+            <div class="project-card-body">
+              <div class="project-tech-badges">
+                <span class="badge-tech"><i class="fa-brands fa-python"></i> Python</span>
+                <span class="badge-tech">Pandas</span>
+                <span class="badge-tech">Matplotlib &amp; Seaborn</span>
+              </div>
+              <h3 class="project-title">Retail Sales Profitability Analysis</h3>
+              <p class="project-desc">
+                Exploratory analysis of Tableau's fictional Sample Superstore dataset, examining sales trends,
+                product profitability, regional margins, and the effect of discounts on profit.
+              </p>
+              <div class="project-highlights-box">
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check text-cyan"></i>
+                  <span><strong>9,994</strong> order lines analyzed across 2014-2017</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check text-cyan"></i>
+                  <span>Tables and Bookcases identified as loss-making sub-categories</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check text-cyan"></i>
+                  <span>Discount bands above <strong>20%</strong> show negative aggregate profit margins</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check text-cyan"></i>
+                  <span>Jupyter notebook, seven charts, and business recommendations</span>
+                </div>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/youssefmamdouh123456789-hue/retail-sales-profitability-eda" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-sm btn-primary" title="Read the analysis on GitHub">
+                  <i class="fa-brands fa-github"></i> View Analysis &amp; Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TRAINING & PRACTICAL EXPERIENCE (VERTICAL TIMELINE) -->
+    <section id="timeline" class="timeline-section section-padding">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <div class="section-badge"><i class="fa-solid fa-clock-rotate-left"></i> Hands-On Path</div>
+          <h2 class="section-title">Training &amp; Practical Experience</h2>
+          <p class="section-subtitle">Real-world project implementation, specialized government tech initiatives, and
+            intensive analytics tracks.</p>
+        </div>
+
+        <div class="timeline-container">
+          <div class="timeline-line"></div>
+
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-marker">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-badge-row">
+                <span class="timeline-year">2026</span>
+                <span class="badge-status completed"><i class="fa-solid fa-circle-check"></i> Completed</span>
+              </div>
+              <h3 class="timeline-title">ITI – Data Analytics Track</h3>
+              <p class="timeline-institution"><i class="fa-solid fa-building-columns"></i> Information Technology
+                Institute (ITI)</p>
+              <p class="timeline-desc">
+                Engaged in rigorous hands-on training focusing on enterprise Data Analytics, Business Intelligence
+                dashboard development, advanced data visualization, modern analytical tools, and standardized analytical
+                workflows.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">Data Analytics</span>
+                <span class="tag">Business Intelligence</span>
+                <span class="tag">Data Visualization</span>
+                <span class="tag">Analytical Tools</span>
+                <span class="tag">Workflows</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="timeline-marker">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-badge-row">
+                <span class="timeline-year">2026</span>
+                <span class="badge-status in-progress"><i class="fa-solid fa-spinner fa-spin"></i> In Progress</span>
+              </div>
+              <h3 class="timeline-title">Rowad Masr Digital Initiative (DEPI)</h3>
+              <p class="timeline-institution"><i class="fa-solid fa-microchip"></i> AI &amp; Data Scientist Track – Data
+                Science Branch</p>
+              <p class="timeline-desc">
+                Specialized training under the Ministry of Communications and Information Technology initiative,
+                strengthening skills across Data Science, Artificial Intelligence, Machine Learning algorithms,
+                statistical modeling, and Python programming.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">Data Science</span>
+                <span class="tag">Artificial Intelligence</span>
+                <span class="tag">Machine Learning</span>
+                <span class="tag">Python</span>
+                <span class="tag">Statistical Modeling</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3 -->
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="timeline-marker">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-badge-row">
+                <span class="timeline-year">2026</span>
+                <span class="badge-status completed"><i class="fa-solid fa-circle-check"></i> Project-Based</span>
+              </div>
+              <h3 class="timeline-title">Data Analytics &amp; BI Projects</h3>
+              <p class="timeline-institution"><i class="fa-solid fa-laptop-code"></i> Practical Portfolio Implementation
+              </p>
+              <p class="timeline-desc">
+                Designed and deployed end-to-end analytical models on real-world datasets spanning insurance risk,
+                retail sales, election results, and logistics. Applied Power BI, Microsoft Excel, SQL Server, SSMS, and
+                Python.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">Power BI</span>
+                <span class="tag">Microsoft Excel</span>
+                <span class="tag">SQL Server</span>
+                <span class="tag">SSMS</span>
+                <span class="tag">Python</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CAREER DEVELOPMENT PATH (ROADMAP FLOWCHART) -->
+    <section class="roadmap-section section-padding">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <div class="section-badge"><i class="fa-solid fa-route"></i> Career Roadmap</div>
+          <h2 class="section-title">Visual Career Development Path</h2>
+          <p class="section-subtitle">Computer Science &rarr; Data Analytics &rarr; Data Science &rarr; AI Engineering
+          </p>
+        </div>
+
+        <div class="roadmap-flowchart-grid" data-aos="zoom-in">
+
+          <!-- Step 1 -->
+          <div class="roadmap-node glass-panel">
+            <div class="node-icon icon-blue"><i class="fa-solid fa-laptop-code"></i></div>
+            <span class="node-step">STAGE 01</span>
+            <h4 class="node-title">Computer Science</h4>
+            <p class="node-desc">Arab Open University foundations in OOP, Algorithms, Data Structures, and Discrete
+              Math.</p>
+          </div>
+
+          <div class="roadmap-connector"><i class="fa-solid fa-arrow-right"></i></div>
+
+          <!-- Step 2 -->
+          <div class="roadmap-node glass-panel">
+            <div class="node-icon icon-cyan"><i class="fa-solid fa-chart-pie"></i></div>
+            <span class="node-step">STAGE 02</span>
+            <h4 class="node-title">Data Analytics</h4>
+            <p class="node-desc">Transforming raw datasets, exploratory data analysis, Excel modeling, &amp; data
+              cleaning.</p>
+          </div>
+
+          <div class="roadmap-connector"><i class="fa-solid fa-arrow-right"></i></div>
+
+          <!-- Step 3 -->
+          <div class="roadmap-node glass-panel">
+            <div class="node-icon icon-amber"><i class="fa-solid fa-chart-simple"></i></div>
+            <span class="node-step">STAGE 03</span>
+            <h4 class="node-title">Data Science</h4>
+            <p class="node-desc">Statistical modeling, predictive analytics, Python data stack, and machine learning
+              foundations.</p>
+          </div>
+
+          <div class="roadmap-connector"><i class="fa-solid fa-arrow-right"></i></div>
+
+          <!-- Step 4 -->
+          <div class="roadmap-node glass-panel active-focus">
+            <div class="node-icon icon-violet"><i class="fa-solid fa-brain"></i></div>
+            <span class="node-step">STAGE 04 (ACTIVE)</span>
+            <h4 class="node-title">Artificial Intelligence</h4>
+            <p class="node-desc">ITI &amp; DEPI tracks: Machine learning, statistical inference, Python data stack,
+              &amp; AI.</p>
+          </div>
+
+          <div class="roadmap-connector"><i class="fa-solid fa-arrow-right"></i></div>
+
+          <!-- Step 5 -->
+          <div class="roadmap-node glass-panel future-target">
+            <div class="node-icon icon-emerald"><i class="fa-solid fa-rocket"></i></div>
+            <span class="node-step">STAGE 05</span>
+            <h4 class="node-title">AI Engineering</h4>
+            <p class="node-desc">My long-term goal is to become an AI Engineer and build intelligent, data-driven
+              applications and AI solutions.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="education-section section-padding">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <div class="section-badge"><i class="fa-solid fa-book-bookmark"></i> Academic Background</div>
+          <h2 class="section-title">Education</h2>
+          <p class="section-subtitle">Formal higher education providing strong computational and theoretical
+            foundations.</p>
+        </div>
+
+        <div class="education-card-wrap" data-aos="fade-up">
+          <div class="education-card glass-panel">
+            <div class="education-icon-box">
+              <i class="fa-solid fa-building-columns"></i>
+            </div>
+            <div class="education-details">
+              <div class="education-meta">
+                <span class="edu-year"><i class="fa-solid fa-calendar-days"></i> Expected Graduation: 2027</span>
+                <span class="edu-status">Undergraduate Student</span>
+              </div>
+              <h3 class="edu-degree">Bachelor’s Degree in Computer Science</h3>
+              <h4 class="edu-institution">Arab Open University – Egypt</h4>
+              <p class="edu-desc">
+                Core coursework includes Data Structures, Algorithms, Object-Oriented Programming (Java &amp; Python),
+                Relational Database Management Systems (SQL), Operating Systems, Discrete Mathematics, and Computer
+                Networks.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRAINING & PROFESSIONAL DEVELOPMENT SECTION -->
+    <section id="training" class="training-section section-padding">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <div class="section-badge"><i class="fa-solid fa-graduation-cap"></i> Specialized Learning</div>
+          <h2 class="section-title">Training &amp; Professional Development</h2>
+          <p class="section-subtitle">Active engagement in intensive national technology programs and technical
+            specializations.</p>
+        </div>
+
+        <div class="training-cards-grid">
+
+          <!-- Training Card 1 -->
+          <div class="training-card glass-panel" data-aos="fade-up">
+            <div class="training-header">
+              <div class="training-icon icon-cyan">
+                <i class="fa-solid fa-chart-pie"></i>
+              </div>
+              <div>
+                <span class="training-badge-status in-progress">In Progress</span>
+                <h3 class="training-title">ITI – Data Analytics Track</h3>
+                <p class="training-provider">Information Technology Institute (ITI)</p>
+              </div>
+            </div>
+            <div class="training-body">
+              <h4 class="training-focus-heading">Curriculum Focus:</h4>
+              <ul class="training-focus-list">
+                <li><i class="fa-solid fa-check text-cyan"></i> Data Analytics Methodologies</li>
+                <li><i class="fa-solid fa-check text-cyan"></i> Business Intelligence &amp; KPI Systems</li>
+                <li><i class="fa-solid fa-check text-cyan"></i> Data Visualization Principles &amp; Design</li>
+                <li><i class="fa-solid fa-check text-cyan"></i> Modern Analytical Tooling &amp; Techniques</li>
+                <li><i class="fa-solid fa-check text-cyan"></i> End-to-End Analytical Workflows</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Training Card 2 -->
+          <div class="training-card glass-panel" data-aos="fade-up" data-aos-delay="100">
+            <div class="training-header">
+              <div class="training-icon icon-violet">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <div>
+                <span class="training-badge-status in-progress">In Progress</span>
+                <h3 class="training-title">Rowad Masr Digital Initiative (DEPI)</h3>
+                <p class="training-provider">AI &amp; Data Scientist Track — Data Science Branch</p>
+              </div>
+            </div>
+            <div class="training-body">
+              <h4 class="training-focus-heading">Curriculum Focus:</h4>
+              <ul class="training-focus-list">
+                <li><i class="fa-solid fa-check text-violet"></i> Data Science Principles &amp; Statistics</li>
+                <li><i class="fa-solid fa-check text-violet"></i> Artificial Intelligence Concepts</li>
+                <li><i class="fa-solid fa-check text-violet"></i> Machine Learning Algorithms</li>
+                <li><i class="fa-solid fa-check text-violet"></i> Python Data Ecosystem (Pandas, NumPy)</li>
+                <li><i class="fa-solid fa-check text-violet"></i> Data Modeling &amp; Predictive Analysis</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section id="certifications" class="certifications-section section-padding">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <div class="section-badge"><i class="fa-solid fa-award"></i> Verified Credentials</div>
+          <h2 class="section-title">Certifications</h2>
+          <p class="section-subtitle">Professional certifications and credentials in AI, Data Analytics, Visualization,
+            and Technology.</p>
+        </div>
+
+        <div class="certifications-grid">
+
+          <!-- Cert 1 -->
+          <div class="cert-card glass-panel" data-aos="fade-up">
+            <div class="cert-header">
+              <div class="cert-issuer-badge ibm"><i class="fa-solid fa-microchip"></i> IBM SkillsBuild</div>
+              <span class="cert-year">2026</span>
+            </div>
+            <h3 class="cert-name">Artificial Intelligence Fundamentals</h3>
+            <p class="cert-org">IBM SkillsBuild</p>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="cert-card glass-panel" data-aos="fade-up" data-aos-delay="50">
+            <div class="cert-header">
+              <div class="cert-issuer-badge ibm"><i class="fa-solid fa-brain"></i> IBM SkillsBuild</div>
+              <span class="cert-year">2026</span>
+            </div>
+            <h3 class="cert-name">Machine Learning and Deep Learning</h3>
+            <p class="cert-org">IBM SkillsBuild</p>
+          </div>
+
+          <!-- Cert 3 -->
+          <div class="cert-card glass-panel" data-aos="fade-up" data-aos-delay="100">
+            <div class="cert-header">
+              <div class="cert-issuer-badge ibm"><i class="fa-solid fa-chart-line"></i> IBM SkillsBuild</div>
+              <span class="cert-year">2026</span>
+            </div>
+            <h3 class="cert-name">Data Visualization and Presentation</h3>
+            <p class="cert-org">IBM SkillsBuild</p>
+          </div>
+
+          <!-- Cert 4 -->
+          <div class="cert-card glass-panel" data-aos="fade-up" data-aos-delay="150">
+            <div class="cert-header">
+              <div class="cert-issuer-badge ibm"><i class="fa-solid fa-chart-pie"></i> IBM SkillsBuild</div>
+              <span class="cert-year">2026</span>
+            </div>
+            <h3 class="cert-name">Data Analytics Fluency Pathway</h3>
+            <p class="cert-org">IBM SkillsBuild</p>
+          </div>
+
+          <!-- Cert 5 -->
+          <div class="cert-card glass-panel" data-aos="fade-up" data-aos-delay="200">
+            <div class="cert-header">
+              <div class="cert-issuer-badge google"><i class="fa-brands fa-google"></i> Google GDG</div>
+              <span class="cert-year">2026</span>
+            </div>
+            <h3 class="cert-name">Build with AI Workshop</h3>
+            <p class="cert-org">Google Developer Groups OnCampus, AOU</p>
+          </div>
+
+          <!-- Cert 6 -->
+          <div class="cert-card glass-panel" data-aos="fade-up" data-aos-delay="250">
+            <div class="cert-header">
+              <div class="cert-issuer-badge google"><i class="fa-brands fa-google"></i> Google</div>
+              <span class="cert-year">Verified</span>
+            </div>
+            <h3 class="cert-name">Fundamentals of Digital Marketing</h3>
+            <p class="cert-org">Google Digital Garage</p>
+          </div>
+
+          <!-- Cert 7 -->
+          <div class="cert-card glass-panel" data-aos="fade-up" data-aos-delay="300">
+            <div class="cert-header">
+              <div class="cert-issuer-badge cisco"><i class="fa-solid fa-network-wired"></i> Cisco</div>
+              <span class="cert-year">2026</span>
+            </div>
+            <h3 class="cert-name">Data Analytics Essentials</h3>
+            <p class="cert-org">Cisco Networking Academy</p>
+          </div>
+
+          <!-- Cert 8 -->
+          <div class="cert-card glass-panel" data-aos="fade-up" data-aos-delay="350">
+            <div class="cert-header">
+              <div class="cert-issuer-badge google"><i class="fa-brands fa-google"></i> Google Coursera</div>
+              <span class="cert-year in-prog-text">In Progress</span>
+            </div>
+            <h3 class="cert-name">Google Data Analytics Professional Certificate</h3>
+            <p class="cert-org">Google / Coursera</p>
+          </div>
+
+          <!-- Cert 9: ITI Data Analytics -->
+          <div class="cert-card glass-panel" data-aos="fade-up" data-aos-delay="400">
+            <div class="cert-header">
+              <div class="cert-issuer-badge cisco"><i class="fa-solid fa-graduation-cap"></i> ITI</div>
+              <span class="cert-year">2026</span>
+            </div>
+            <h3 class="cert-name">Data Analytics Training</h3>
+            <p class="cert-org">Information Technology Institute (ITI), Egypt</p>
+          </div>
+
+          <!-- Cert 10: IBM / Coursera. Year not supplied in CV. -->
+          <div class="cert-card glass-panel" data-aos="fade-up" data-aos-delay="450">
+            <div class="cert-header">
+              <div class="cert-issuer-badge ibm"><i class="fa-solid fa-graduation-cap"></i> IBM / Coursera</div>
+            </div>
+            <h3 class="cert-name">Data Analysis with Python</h3>
+            <p class="cert-org">IBM / Coursera</p>
+          </div>
+
+          <!-- Cert 11: IBM / Coursera. Year not supplied in CV. -->
+          <div class="cert-card glass-panel" data-aos="fade-up" data-aos-delay="500">
+            <div class="cert-header">
+              <div class="cert-issuer-badge ibm"><i class="fa-solid fa-graduation-cap"></i> IBM / Coursera</div>
+            </div>
+            <h3 class="cert-name">Machine Learning with Python</h3>
+            <p class="cert-org">IBM / Coursera</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES / CAPABILITIES SECTION -->
+    <section id="services" class="services-section section-padding">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <div class="section-badge"><i class="fa-solid fa-layer-group"></i> Analytical Capabilities</div>
+          <h2 class="section-title">Capabilities &amp; Services</h2>
+          <p class="section-subtitle">Professional analytical skills applied to turn complex datasets into actionable
+            business value.</p>
+        </div>
+
+        <div class="services-grid">
+
+          <!-- Service 01 -->
+          <div class="service-card glass-panel" data-aos="fade-up">
+            <div class="service-number">01</div>
+            <div class="service-icon icon-cyan">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <h3 class="service-title">Data Analysis</h3>
+            <p class="service-desc">
+              Transform raw datasets into meaningful insights using Excel, SQL, Python, and statistical analytical
+              techniques to discover trends and correlations.
+            </p>
+            <div class="service-tags">
+              <span>Python</span>
+              <span>Excel</span>
+              <span>EDA</span>
+              <span>Statistics</span>
+            </div>
+          </div>
+
+          <!-- Service 02 -->
+          <div class="service-card glass-panel" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-number">02</div>
+            <div class="service-icon icon-amber">
+              <i class="fa-solid fa-gauge-high"></i>
+            </div>
+            <h3 class="service-title">Business Intelligence &amp; Dashboards</h3>
+            <p class="service-desc">
+              Build interactive dashboards and KPI reports using Power BI and Excel with dynamic DAX calculations,
+              interactive slicers, and executive-level visualizations.
+            </p>
+            <div class="service-tags">
+              <span>Power BI</span>
+              <span>DAX</span>
+              <span>KPIs</span>
+              <span>Dashboards</span>
+            </div>
+          </div>
+
+          <!-- Service 03 -->
+          <div class="service-card glass-panel" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-number">03</div>
+            <div class="service-icon icon-violet">
+              <i class="fa-solid fa-database"></i>
+            </div>
+            <h3 class="service-title">SQL Data Analysis</h3>
+            <p class="service-desc">
+              Analyze relational datasets using SQL Server, complex joins, aggregations, subqueries, and database
+              structures designed for optimal querying performance.
+            </p>
+            <div class="service-tags">
+              <span>SQL Server</span>
+              <span>SSMS</span>
+              <span>Star Schema</span>
+              <span>Joins</span>
+            </div>
+          </div>
+
+          <!-- Service 04 -->
+          <div class="service-card glass-panel" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-number">04</div>
+            <div class="service-icon icon-emerald">
+              <i class="fa-solid fa-broom"></i>
+            </div>
+            <h3 class="service-title">Data Cleaning &amp; Reporting</h3>
+            <p class="service-desc">
+              Clean, transform, organize, and prepare messy datasets using Power Query and Python for accurate
+              reporting, integrity validation, and business decision-making.
+            </p>
+            <div class="service-tags">
+              <span>Power Query</span>
+              <span>ETL</span>
+              <span>Data Prep</span>
+              <span>Reporting</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- RECOMMENDATIONS & SOCIAL PROOF SECTION -->
+    <section id="recommendations" class="recommendations-section section-padding">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <div class="section-badge"><i class="fa-solid fa-thumbs-up"></i> Endorsements &amp; Feedback</div>
+          <h2 class="section-title">Recommendations &amp; Social Proof</h2>
+          <p class="section-subtitle">Feedback and endorsements from training instructors and project peers on
+            analytical rigor, data modeling, and teamwork.</p>
+        </div>
+
+        <div class="recommendations-grid">
+
+          <!-- Recommendation 01: Training Recommendation -->
+          <div class="recommendation-card glass-panel" data-aos="fade-up">
+            <div class="rec-card-header">
+              <div class="rec-rating" aria-label="5 out of 5 stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="rec-quote-icon">
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+            </div>
+
+            <blockquote class="rec-quote-text">
+              "Youssef demonstrates strong technical capabilities in data modeling, SQL querying, and building executive
+              Power BI dashboards with high accuracy."
+            </blockquote>
+
+            <div class="rec-author-info">
+              <div class="rec-avatar-icon icon-cyan">
+                <i class="fa-solid fa-chalkboard-user"></i>
+              </div>
+              <div class="rec-author-details">
+                <h4 class="rec-author-title">DEPI Data Analytics Instructor</h4>
+                <p class="rec-author-org">Rowad Misr Initiative</p>
+                <span class="rec-badge-type"><i class="fa-solid fa-award"></i> Training Endorsement</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recommendation 02: Project Recommendation -->
+          <div class="recommendation-card glass-panel" data-aos="fade-up" data-aos-delay="150">
+            <div class="rec-card-header">
+              <div class="rec-rating" aria-label="5 out of 5 stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="rec-quote-icon">
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+            </div>
+
+            <blockquote class="rec-quote-text">
+              "Great collaborator with an excellent grasp of data cleaning workflows, Star Schema relational modeling,
+              and translating complex metrics into visual stories."
+            </blockquote>
+
+            <div class="rec-author-info">
+              <div class="rec-avatar-icon icon-violet">
+                <i class="fa-solid fa-users-gear"></i>
+              </div>
+              <div class="rec-author-details">
+                <h4 class="rec-author-title">Project Collaborator</h4>
+                <p class="rec-author-org">Data Engineering Peer</p>
+                <span class="rec-badge-type"><i class="fa-solid fa-code-branch"></i> Project Peer Review</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section section-padding">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <div class="section-badge"><i class="fa-solid fa-envelope-open-text"></i> Get In Touch</div>
+          <h2 class="section-title">Contact Me</h2>
+          <p class="section-subtitle">Interested in discussing an internship, entry-level opportunity, or collaborative
+            data project? Let's connect!</p>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Left: Contact Details & Info -->
+          <div class="contact-info-col" data-aos="fade-right">
+            <div class="contact-info-card glass-panel">
+              <h3 class="contact-card-title">Contact Information</h3>
+              <p class="contact-card-subtitle">
+                Feel free to reach out via email, phone, or LinkedIn. I am always open to discussing new data analytics
+                challenges and entry-level positions.
+              </p>
+
+              <div class="contact-methods-list">
+
+                <a href="mailto:yousefmamdouh123456789@gmail.com" class="contact-method-item">
+                  <div class="method-icon icon-cyan">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <div>
+                    <span class="method-label">Email Address</span>
+                    <span class="method-val">yousefmamdouh123456789@gmail.com</span>
+                  </div>
+                </a>
+
+                <a href="tel:01278478956" class="contact-method-item">
+                  <div class="method-icon icon-emerald">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <div>
+                    <span class="method-label">Phone Number</span>
+                    <span class="method-val">01278478956</span>
+                  </div>
+                </a>
+
+                <div class="contact-method-item">
+                  <div class="method-icon icon-amber">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div>
+                    <span class="method-label">Location</span>
+                    <span class="method-val">Alexandria, Egypt</span>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="contact-social-block">
+                <h4 class="social-block-title">Connect on Professional Networks:</h4>
+                <div class="contact-social-links">
+                  <a href="https://www.linkedin.com/in/youssef-mamdouh-322440357" target="_blank"
+                    rel="noopener noreferrer" class="social-link-btn" title="LinkedIn Profile">
+                    <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+                  </a>
+                  <a href="https://github.com/youssefmamdouh123456789-hue" target="_blank" rel="noopener noreferrer"
+                    class="social-link-btn" title="GitHub Profile">
+                    <i class="fa-brands fa-github"></i> GitHub
+                  </a>
+                  <a href="mailto:yousefmamdouh123456789@gmail.com" class="social-link-btn" title="Send Email">
+                    <i class="fa-solid fa-envelope"></i> Email
+                  </a>
+                  <a href="https://wa.me/201278478956" target="_blank" rel="noopener noreferrer" class="social-link-btn"
+                    title="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Contact Form -->
+          <div class="contact-form-col" data-aos="fade-left">
+            <div class="contact-form-card glass-panel">
+              <h3 class="form-card-title">Send a Message</h3>
+
+              <form id="contactForm" class="contact-form" novalidate>
+                <div class="form-group">
+                  <label for="userName" class="form-label">Full Name <span class="required-star">*</span></label>
+                  <div class="input-wrap">
+                    <i class="fa-solid fa-user input-icon"></i>
+                    <input type="text" id="userName" name="name" class="form-input" placeholder="e.g. Youssef Mamdouh"
+                      required>
+                  </div>
+                  <span class="form-error" id="nameError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="userEmail" class="form-label">Email Address <span class="required-star">*</span></label>
+                  <div class="input-wrap">
+                    <i class="fa-solid fa-envelope input-icon"></i>
+                    <input type="email" id="userEmail" name="email" class="form-input"
+                      placeholder="e.g. youssefmamdouh123456789@gmail.com" required>
+                  </div>
+                  <span class="form-error" id="emailError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="userSubject" class="form-label">Subject <span class="required-star">*</span></label>
+                  <div class="input-wrap">
+                    <i class="fa-solid fa-tag input-icon"></i>
+                    <input type="text" id="userSubject" name="subject" class="form-input"
+                      placeholder="e.g. Internship Opportunity / Data Analytics" required>
+                  </div>
+                  <span class="form-error" id="subjectError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="userMessage" class="form-label">Message <span class="required-star">*</span></label>
+                  <div class="input-wrap textarea-wrap">
+                    <i class="fa-solid fa-message input-icon"></i>
+                    <textarea id="userMessage" name="message" class="form-input form-textarea" rows="4"
+                      placeholder="Write your message here..." required></textarea>
+                  </div>
+                  <span class="form-error" id="messageError"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block" id="sendMessageBtn">
+                  <i class="fa-solid fa-paper-plane"></i> Send Message
+                </button>
+              </form>
+
+              <!-- Toast notification inside form container -->
+              <div id="formToast" class="form-toast" aria-live="polite">
+                <i class="fa-solid fa-circle-check toast-icon"></i>
+                <span class="toast-message">Thank you! Your message has been prepared.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#home" class="brand-logo">
+          <span class="logo-badge">YM</span>
+          <span class="footer-logo-text">Youssef Mamdouh</span>
+        </a>
+        <p class="footer-role">Data Analyst | Aspiring Data Scientist</p>
+      </div>
+
+      <div class="footer-copyright">
+        <p>© 2026 Youssef Mamdouh. All Rights Reserved.</p>
+        <p class="footer-subtext">Computer Science Student • Arab Open University</p>
+      </div>
+
+      <div class="footer-socials-actions">
+        <div class="footer-social-links">
+          <a href="https://www.linkedin.com/in/youssef-mamdouh-322440357" target="_blank" rel="noopener noreferrer"
+            aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/youssefmamdouh123456789-hue" target="_blank" rel="noopener noreferrer"
+            aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="mailto:yousefmamdouh123456789@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://wa.me/201278478956" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i
+              class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <a href="#home" class="back-to-top-btn" id="backToTopBtn" aria-label="Back to Top" title="Back to top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- PROJECT DETAILS MODAL -->
+  <div id="projectModal" class="project-modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="project-modal-content glass-panel">
+      <button id="closeModalBtn" class="modal-close-btn" aria-label="Close project modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="modal-header">
+        <div class="modal-badge-group" id="modalTechBadges"></div>
+        <h2 class="modal-title" id="modalTitle">Project Title</h2>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-overview-card">
+          <h4 class="modal-subheading"><i class="fa-solid fa-align-left text-cyan"></i> Project Overview</h4>
+          <p id="modalDescription" class="modal-desc-text"></p>
+        </div>
+
+        <div class="modal-kpi-highlights">
+          <h4 class="modal-subheading"><i class="fa-solid fa-chart-column text-emerald"></i> Key Highlights &amp;
+            Metrics</h4>
+          <ul id="modalHighlightsList" class="modal-highlights-list"></ul>
+        </div>
+
+        <div class="modal-workflow-box">
+          <h4 class="modal-subheading"><i class="fa-solid fa-diagram-project text-violet"></i> Analytical Architecture
+          </h4>
+          <div id="modalArchitectureText" class="modal-arch-text"></div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <a id="modalGithubLink" href="https://github.com/youssefmamdouh123456789-hue" target="_blank"
+          rel="noopener noreferrer" class="btn btn-outline">
+          <i class="fa-brands fa-github"></i> View GitHub Repository
+        </a>
+        <button id="modalCloseActionBtn" class="btn btn-secondary">
+          Close Window
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
